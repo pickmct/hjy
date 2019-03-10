@@ -25,7 +25,7 @@ jQuery(document).ready(function ($) {
     //$(".mumu").jrumble({rangeX: 2,rangeY: 2,rangeRot: 1});
     $(".mumu").mouseover(function () {
        $(".mumu").fadeTo("300", 0.3);
-       msgs = ["我隐身了，你看不到我", "我会隐身哦！嘿嘿！", "别动手动脚的，把手拿开！", "把手拿开我才出来！"];
+        msgs = ["我隐身了，你看不到我", "何佳媛不可以玩手机啦！", "别动手动脚的，把手拿开！", "把钱拿给我才出来！","何佳媛快去运动锻炼！！"];
        var i = Math.floor(Math.random() * msgs.length);
         showMessage(msgs[i]);
     });
